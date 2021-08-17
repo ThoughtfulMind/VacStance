@@ -1,1 +1,1 @@
-# VacStance: Detecting Stance in a Polarized Media Environment: The Covid-19 Vaccine Case in the United States 
+# VacStance: Detecting Stance on Covid-19 Vaccine in a Polarized Media Environment
