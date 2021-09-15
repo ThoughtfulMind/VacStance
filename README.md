@@ -1,5 +1,8 @@
 # **VacStance** 
-Detecting Stance in Media On Covid-19 Vaccine
+Detecting Stance in a Polarized Media Environment: 
+The Covid-19 Vaccine Case in the United States
+
+We introduce VacStance, a dataset of 2,000 stance-labeled Covid-19 vaccine sentences extracted from 169,432 sentences drawing from 15,750 news articles covering left-leaning and right-leaning media outlets. We run a trained BERT classifier to analyze aspects of argumentation, how the different sides of the vaccine debate represent their own and each other’s opinions. 
 
 This repository contains code and data for the capstone project.
 
