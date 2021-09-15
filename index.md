@@ -1,19 +1,20 @@
-## Welcome to GitHub Pages
+###VacStance – Detecting Stance in a Polarized Media Environment: 
+The Covid-19 Vaccine Case in the United States
 
-You can use the [editor on GitHub](https://github.com/ThoughtfulMind/VacStance/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+We examine U.S. news media coverage on Covid-19 vaccine topic as an illustration of a debate in a polarized environment through the stance in the media on vaccine safety. Specifically, we analyze opinion-framing in the Covid-19 vaccine debate as a way of attributing a statement or belief to someone else. We focus on self-affirming and opponent-doubting discourse and analyze if Left-leaning and Right-leaning media engage in self-affirming or opponent-doubting discourse. For example, a health expert would say that “The leading researchers agree that Covid-19 vaccines are safe and effective” while a vaccine skeptic would say that “Mistaken researchers claim that Covid-19 vaccines are safe and effective”.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+##GitHub Repository: https://github.com/ThoughtfulMind/VacStance
 
-### Markdown
+##Annotation - Label Studio: http://annotation.vacstance.com/projects/
+Note: in order to be able to annotate data, you need to have a Label Studio account.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+
+
+
+
+
 
 - Bulleted
 - List
@@ -25,13 +26,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ThoughtfulMind/VacStance/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
