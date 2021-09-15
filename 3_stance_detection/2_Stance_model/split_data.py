@@ -59,9 +59,9 @@ def main():
             print(len(train_indices), len(dev_indices), len(test_indices))
 
             if weights:
-                outdir = os.path.join(basedir, 'climate-weight', 'folds',  str(f))
+                outdir = os.path.join(basedir, 'vaccine-weight', 'folds',  str(f))
             else:
-                outdir = os.path.join(basedir, 'climate', 'folds',  str(f))
+                outdir = os.path.join(basedir, 'vaccine', 'folds',  str(f))
             if not os.path.exists(outdir):
                 os.makedirs(outdir)
 
@@ -75,9 +75,9 @@ def main():
             write_to_file(outfile, test_df, test_indices, weights)
 
         if weights:
-            outdir = os.path.join(basedir, 'climate-weight', 'folds',  'no-dev')
+            outdir = os.path.join(basedir, 'vaccine-weight', 'folds',  'no-dev')
         else:
-            outdir = os.path.join(basedir, 'climate', 'folds',  'no-dev')
+            outdir = os.path.join(basedir, 'vaccine', 'folds',  'no-dev')
         if not os.path.exists(outdir):
             os.makedirs(outdir)
 

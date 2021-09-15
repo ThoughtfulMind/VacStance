@@ -14,8 +14,8 @@ PRONOUNS = get_pronouns()
 tk = MWETokenizer()
 tk.add_mwe(('peer', 'review'))
 tk.add_mwe(('non', 'peer', 'review'))
-tk.add_mwe(('research', 'scientist'))
-tk.add_mwe(('mRNA', 'scientist'))
+tk.add_mwe(('climate', 'scientist'))
+tk.add_mwe(('climate', 'scientist'))
 tk.add_mwe(('medium', 'outlet'))
 tk.add_mwe(('nobel', 'prize', 'win'))
 tk.add_mwe(('nobel', 'win'))
@@ -23,7 +23,7 @@ tk.add_mwe(('nobel', 'peace', 'prize'))
 tk.add_mwe(('nobel', 'laureate'))
 tk.add_mwe(('nobel', 'laureates'))
 tk.add_mwe(('prize', 'win'))
-tk.add_mwe(('pfizer', 'moderna'))
+tk.add_mwe(('ocasio', 'cortez'))
 
 def get_sorted_indices(q_dict):
     """Helper function to `get_context()`.
@@ -102,8 +102,8 @@ if __name__=="__main__":
     orig.reset_index(drop=True,inplace=True)
 
     print("Reading in batched BERT predictions...")
-    PRED_DIR = "../3_cc_stance/2_Stance_model/model_preds"
-    pred_files = glob.glob(os.path.join(PRED_DIR,'batch_*_pred.tsv'))
+    PRED_DIR = "../3_stance_detection/2_Stance_model/model_preds"
+    pred_files = glob.glob(os.path.join(PRED_DIR,'*.tsv'))
     print('\tFound {} prediction files.'.format(len(pred_files)))
     all_preds = [pd.read_csv(pred_file,sep='\t',header=0) for pred_file in pred_files]
     all_preds = pd.concat([x for x in all_preds],ignore_index=True)

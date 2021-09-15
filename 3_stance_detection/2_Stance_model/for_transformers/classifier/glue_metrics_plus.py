@@ -58,7 +58,7 @@ def glue_compute_metrics(task_name, preds, labels):
         return {"acc": simple_accuracy(preds, labels)}
     elif task_name == "hans":
         return {"acc": simple_accuracy(preds, labels)}
-    elif task_name == 'climate' or task_name == 'climate-weight':
+    elif task_name == 'vaccine' or task_name == 'vaccine-weight':
         return {'acc': simple_accuracy(preds, labels),
                 'acc_and_f1': acc_and_f1(preds, labels),
                 'cm': cm(preds, labels),

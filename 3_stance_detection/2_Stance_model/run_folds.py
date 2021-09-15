@@ -66,12 +66,12 @@ def run_folds(basedir, transformers_dir, seed=42, model_name_or_path='bert-base-
         os.makedirs(basedir)
 
     if weights:
-        task = 'climate-weight'
+        task = 'vaccine-weight'
         subdir = 'folds'
         script = os.path.join(transformers_dir, 'run_weighted.py')
         save_steps *= 3
     else:
-        task = 'climate'
+        task = 'vaccine'
         script = os.path.join(transformers_dir, 'run.py')
         subdir = os.path.join('folds')
 

@@ -83,7 +83,7 @@ def main():
     response_df = pd.read_csv('data/all_responses_updated.tsv', header=0, index_col=0, sep='\t')
     response_df.head()
 
-    sents_df = pd.read_csv('data/sents.tsv', header=0, index_col=0, sep='\t')
+    sents_df = pd.read_csv('data/sents.tsv', header=0, index_col=0, sep='\t', encoding="iso-8859-1")
     sents_df.head()
 
     ratings = np.array(response_df['ratings'].values)

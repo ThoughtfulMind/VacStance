@@ -597,7 +597,7 @@ class FramingProcessor(DataProcessor):
         return examples
 
 
-class ClimateProcessor(DataProcessor):
+class VaccineProcessor(DataProcessor):
     """Processor for the SST-2 data set (GLUE version)."""
 
     def get_example_from_tensor_dict(self, tensor_dict):
@@ -642,7 +642,7 @@ class ClimateProcessor(DataProcessor):
                 print(i)
                 print(line)
             if do_text_b:
-                text_b = "Climate change and global warming are serious concerns."
+                text_b = "Coronavirus Vaccines are safe."
             else:
                 text_b = None
             try:
@@ -653,7 +653,7 @@ class ClimateProcessor(DataProcessor):
         return examples
 
 
-class ClimateProcessorWeighted(DataProcessor):
+class VaccineProcessorWeighted(DataProcessor):
     """Processor for classification."""
 
     def get_example_from_tensor_dict(self, tensor_dict):
@@ -701,7 +701,7 @@ class ClimateProcessorWeighted(DataProcessor):
                 raise e
 
             if do_text_b:
-                text_b = "Climate change and global warming are serious concerns."
+                text_b = "Coronavirus Vaccines are safe."
             else:
                 text_b = None
 
@@ -720,8 +720,8 @@ glue_tasks_num_labels = {
     "qnli": 2,
     "rte": 2,
     "wnli": 2,
-    'climate': 3,
-    'climate-weight': 3,
+    'vaccine': 3,
+    'vaccine-weight': 3,
 }
 
 glue_processors = {
@@ -735,8 +735,8 @@ glue_processors = {
     "qnli": QnliProcessor,
     "rte": RteProcessor,
     "wnli": WnliProcessor,
-    'climate': ClimateProcessor,
-    'climate-weight': ClimateProcessorWeighted,
+    'vaccine': VaccineProcessor,
+    'vaccine-weight': VaccineProcessorWeighted,
 }
 
 glue_output_modes = {
@@ -750,6 +750,6 @@ glue_output_modes = {
     "qnli": "classification",
     "rte": "classification",
     "wnli": "classification",
-    'climate': "classification",
-    'climate-weight': "classification",
+    'vaccine': "classification",
+    'vaccine-weight': "classification",
 }
