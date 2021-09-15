@@ -1,6 +1,6 @@
 # Data collection
 
-This directory contains `output/dedup_combined_df_2020_1_1_to_2021_7_1.pkl`, the dataframe containing URLs and meta-data (title, publish date, outlet source) on the full set of unique articles that we use in our analysis. 
+This directory contains `output/dedup_combined_df_2020_1_1_to_2021_7_1.pkl`, the dataframe containing URLs and meta-data (title, publish date, outlet source) on the full set of unique articles that we use in our analysis. In this case, the period covered is January 1, 2020 to July 1, 2021.
 Due to copyright concerns, the full text of the corresponding URLs and the code for scraping the text of the URLs is not available. 
 Provided are the scripts and helper files to obtain and deduplicate additional article URLs to get your own data from different time ranges, using different keyword search terms, etc.
 
