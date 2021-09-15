@@ -12,9 +12,9 @@ A trained BERT classifier analyzed aspects of argumentation, how the different s
 3.	We provide a detailed analysis of generated data of the 169,432 Covid-19 vaccine opinions dataset, as well as the first diachronic analysis of the sources.
 
 
-**GitHub Repository:** https://github.com/ThoughtfulMind/VacStance
+**GitHub Repository:** (https://github.com/ThoughtfulMind/VacStance)
 
-**Annotation - Label Studio:** http://annotation.vacstance.com/projects/
+**Annotation - Label Studio:** (http://annotation.vacstance.com/projects/)
 **Note:** in order to be able to annotate data, you need to have a Label Studio account.
 
 
