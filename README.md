@@ -1,5 +1,7 @@
 # **VacStance** 
-Detecting Stance in Media On Covid-19 Vaccine
+Detecting Stance in a Polarized Media Environment: 
+The Covid-19 Vaccine Case in the United States
+
 
 This repository contains code and data for the capstone project.
 
