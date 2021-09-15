@@ -1,0 +1,10 @@
+coronavirus	coronaviru
+covid-19	covid-19
+vaccine	vaccin
+vaccination	vaccina
+pfizer     pfizer
+moderna   moderna
+zeneca   zeneca 
+antivaxxer	antivaxx
+
+	
