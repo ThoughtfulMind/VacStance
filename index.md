@@ -15,6 +15,7 @@ A trained BERT classifier analyzed aspects of argumentation, how the different s
 **GitHub Repository:** [View](https://github.com/ThoughtfulMind/VacStance)
 
 **Annotation** [Label Studio](http://annotation.vacstance.com/projects/)
+
 **Note:** in order to be able to annotate data, you need to have a Label Studio account.
 
 
