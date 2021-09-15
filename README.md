@@ -1,4 +1,5 @@
-# **VacStance**: **De**tecting **S**tance in **M**edia **O**n **C**ovid-19 Vaccine
+# **VacStance** 
+Detecting Stance in Media On Covid-19 Vaccine
 
 This repository contains code and data for the capstone project.
 
