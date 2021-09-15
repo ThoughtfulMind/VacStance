@@ -1,0 +1,5 @@
+age	gender	education	party	state	poll1	poll2	poll3	poll4	poll5	poll6	poll7	batch	round
+47	female	higher_degree	independent	NY	indeed	very	equal	yes	very	many_weekly	moderately	0	1
+71	male	graduated_college	republican	IL	indeed	extremely	people	no	extremely	many_weekly	somewhat	0	1
+19	female	high_school	democrat	NY	indeed	extremely	people	yes	very	many_weekly	moderately	0	1
+38	male	higher_degree	independent	CA	indeed	extremely	equal	yes	very	many_weekly	very	0	1
