@@ -26,8 +26,8 @@ pip install neuralcoref --no-binary neuralcoref
 
 * The **dataset VacStance** itself can be accessed via `vacstance.tsv` in the main directory. The dataset contains tab-separated fields for each of the following:
 	1. `sentence`: the sentence 
-	2. `annotator_0`, ..., `annotator_3`: ratings from each of the 4 annotators for the stance of the sentence
-	3. `disagree`: the probability that the sentence expresses disagreement with the target opinion (that Covid-19 vaccine is safe.), as estimated by our Bayesian model
+	2. `annotator_0`, ..., `annotator_3`: ratings from each of the 4 annotators for the stance of the sentence.
+	3. `disagree`: the probability that the sentence expresses disagreement with the target opinion (that Covid-19 vaccine is safe.), as estimated by the Bayesian model.
 	4. `agree`: the probability that the sentence expresses agreement with the target opinion (that Covid-19 vaccine is safe.)
 	5. `neutral`: the probability that the sentence is neutral to the target opinion (that Covid-19 vaccine is safe.)
 	6. `guid`: a unique ID for each sentence
