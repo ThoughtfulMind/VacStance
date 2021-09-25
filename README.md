@@ -21,6 +21,9 @@ pip install neuralcoref --no-binary neuralcoref
 4. Download SpaCy's English model: `python -m spacy download en`
 5. Update the `config.json` file with your local OS variables.
 
+Important note: Not all scripts that were run are included in this repository.
+
+
 ## Repository structure
 
 * The **dataset VacStance** itself can be accessed via `vacstance.tsv` in the main directory. The dataset contains tab-separated fields for each of the following:
