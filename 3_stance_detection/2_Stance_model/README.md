@@ -1,6 +1,6 @@
 ## Label Inference. Demographic Models. Applying Trained Stance Model. Running BERT
 
-This README file provides information about scripts included with this repo for doing label inference from the noisy annotator labels, running the demographic models to look for differences between groups, applying the pre-trained covid-19 vaccine stance model to new data, and running a new BERT model search.
+This README file provides information about scripts included with this repo for doing label inference from the noisy annotator labels, running the demographic models to look for differences between groups, applying the pre-trained Covid-19 vaccine stance model to new data, and running a new BERT model search.
 
 ### 1. Label inference
 
@@ -24,7 +24,7 @@ To apply the final model stance model used in the capstone, it is necessary to f
 5. Install `transformers` from the source by following [these instructions](https://huggingface.co/transformers/installation.html#installing-from-source)
 6. Test the installation to make sure you can load and run a basic BERT model using the instructions on the huggingface README.
 7. Copy the files from the `for_transformers` directory in this repo using the following command (using your path to the `transformers` directory): `cp -r for_transformers/* </path/to/transformers/>`
-8. Download the pretrained Covid-19 vaccine stance model from [here](https://drive.google.com/file/d/12rVg_bpuDfZbdWRtEN2Jf6SNyMEnax76/view?usp=sharing) (~400 Mb) and extract it the same directory as this `README.md` file using `tar -xvzf final_model.tar.gz`
+8. Download the pretrained Covid-19 vaccine stance model (link to be provided upon request) and extract it the same directory as this `README.md` file using `tar -xvzf final_model.tar.gz`
 9. Format your data in .tsv format, such that each line is a document, structured as `[text][\t][label][\t][1.0]`, where `[text]` is a string without tabs or line breaks, `[label]` should be a dummy label from \{agree, disagree, neutral\} and 1.0 is a weight. Save it in any directory as `test.tsv`
 10. Do the prediction using `python predict.py final_model/config.json final_model/no-dev/ --data-dir </path/to/data/> --transformers-dir </path/to/transformers/>` where `</path/to/data/>` is the path to the directory containing your `test.tsv` file, and `</path/to/transformers/>` is the path to your cloned transformers dir.
 11. The output will be written to `final_model/no-dev/predictions_test.tsv`
