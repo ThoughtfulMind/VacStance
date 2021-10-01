@@ -21,7 +21,7 @@ pip install neuralcoref --no-binary neuralcoref
 4. Download SpaCy's English model: `python -m spacy download en`
 5. Update the `config.json` file with your local OS variables.
 
-Important note: Not all scripts that were run are included in this repository.
+Important note: Not all scripts that were run on this project are included in this repository.
 
 
 ## Repository structure
