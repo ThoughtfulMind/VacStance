@@ -4,7 +4,7 @@
 The capstone introduces VacStance, a dataset of 2,000 stance-labeled Covid-19 vaccine sentences extracted from 169,432 sentences drawing from 15,750 news articles covering left-leaning and right-leaning media outlets. The leaning of the medai outlets is based on Media Bias/Fact Check classification for media leaning.
 A trained BERT classifier analyzes aspects of argumentation, how the different sides of the vaccine debate represent their own and each other’s opinions to determine if Left-Leaning and Right-Leaning media use framing devices and opinion attribution.
 
-This repository contains code and data for the capstone project as well as work done post capstone.
+This repository contains code and data for the capstone project as well as work done after capstone submission.
 
 It is based on a paper and code by:
 > Luo, Y., Card, D. and Jurafsky, D. (2020). DeSMOG: Detecting Stance in Media On Global Warming. In *Findings of the Association for Computational Linguistics: EMNLP 2020*. 
