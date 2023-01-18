@@ -38,3 +38,5 @@ Important note: Not all scripts that were run on this project are included in th
 
 * The **lexicons of framing devices** are located in `4_analyses/lexicons`.
 * The sequence of code to replicate the results can be found in the individual READMEs of the numbered sub-directories.
+
+Contact: wowrcny@gmail.com
