@@ -33,12 +33,11 @@ import keras.backend
 from keras.utils import to_categorical
 
 def label2float(x):
-    if x == 0:
-        return 1.0
-    elif x == 2:
-        return -1.0
-    else:
-        return 0.0
+    return {
+        0: 1.0,
+        2: -1.0,
+    }.get(x, 0.0)
+
 
 
 def classif_report(preds, labels):
